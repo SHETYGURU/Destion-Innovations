@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './customStyles.css';
-import Dashboard from './Dashboard';
 import { initializeApp } from "firebase/app";
 import { GoogleAuthProvider, getAuth, signInWithPopup, createUserWithEmailAndPassword } from "firebase/auth";
 import { getFirestore, doc, setDoc, getDoc } from "firebase/firestore";

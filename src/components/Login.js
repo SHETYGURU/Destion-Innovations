@@ -1,6 +1,5 @@
 import React, { useState } from 'react'; 
 import './customStyles.css';
-import Dashboard from './Dashboard';
 import { initializeApp } from "firebase/app";
 import { GoogleAuthProvider, getAuth, signInWithPopup, signInWithEmailAndPassword } from "firebase/auth";
 import { getFirestore, doc, setDoc, getDoc } from "firebase/firestore";
@@ -56,8 +55,8 @@ const Login = () => {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
 
-      const userDoc = doc(db, "Users", user.email);
-      const userSnap = await getDoc(userDoc);
+    //   const userDoc = doc(db, "Users", user.email);
+    //   const userSnap = await getDoc(userDoc);
 
       localStorage.setItem("inputValue", user.email);
       window.location.href = '/Dashboard';
