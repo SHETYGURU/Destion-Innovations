@@ -21,7 +21,7 @@ To set up the project locally, follow these steps:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/destion-innovations.git
+   git clone https://github.com//SHETYGURU/destion-innovations.git
 
    ```
    
