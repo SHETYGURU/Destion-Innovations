@@ -1,25 +1,14 @@
-Here’s a detailed `README.md` file for your dashboard project with a section for a live demo:
-
-```markdown
 # Destion Innovations LLP Dashboard
 
 This is a responsive company dashboard for **Destion Innovations LLP** that provides an overview, latest news, and services sections. The project is built using **React.js** with **Tailwind CSS** for styling and **Firebase** for authentication. It also features a **dark/light mode toggle**, a mobile-responsive layout, and a logout functionality.
 
-## Table of Contents
-- [Live Demo](#live-demo)
-- [Features](#features)
-- [Installation](#installation)
-- [Firebase Setup](#firebase-setup)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Technologies Used](#technologies-used)
-- [License](#license)
+
 
 ## Live Demo
 
 Check out the live demo of the project here:
 
-[Live Demo](https://your-live-demo-url.com)
+[Live Demo](https:destion.netlify.app)
 
 > Replace the link above with the actual deployment URL once you deploy your project (e.g., using Vercel, Netlify, or any other hosting platform).
 
@@ -39,12 +28,13 @@ To set up the project locally, follow these steps:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/destion-innovations-dashboard.git
+   git clone https://github.com/your-username/destion-innovations.git
+
    ```
    
 2. Navigate to the project directory:
    ```bash
-   cd destion-innovations-dashboard
+   cd destion-innovations
    ```
 
 3. Install dependencies:
@@ -52,7 +42,7 @@ To set up the project locally, follow these steps:
    npm install
    ```
 
-4. Create a `.env` file at the root of your project and add your Firebase credentials:
+4. Create a `.env` file at the root of your project and add your Firebase credentials(here the database deatils are displayed ):
   
 
 ## Firebase Setup
