@@ -4,13 +4,6 @@ This is a responsive company dashboard for **Destion Innovations LLP** that prov
 
 
 
-## Live Demo
-
-Check out the live demo of the project here:
-
-[Live Demo](https:destion.netlify.app)
-
-> Replace the link above with the actual deployment URL once you deploy your project (e.g., using Vercel, Netlify, or any other hosting platform).
 
 ## Features
 
@@ -98,4 +91,4 @@ This will start the development server, and you can view the project in the brow
 - **Tailwind CSS**: A utility-first CSS framework for styling the application.
 - **Firebase**: Backend service used for authentication and database.
 - **React Router**: For handling page navigation.
-- **Vercel/Netlify**: (Optional) For deploying the application to the web.
+
